@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+button{
+    border: transparent;
+    background: transparent;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: url("img/bg.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo{
+    font-size: 36px;
+    font-weight: 300;
+    margin: 40px 0px 38px 61px;
+    color: #000000;
+}
+
+.nav__menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav__menu li{
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #616161;
+    padding-left: 50px;
+}
+
+.nav__menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #616161;
+}
+
+.banner{
+    width: 1200px;
+    height: 600px;
+    background: url("img/hero_b1_1.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__welcome{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 189px;
+    margin: 0 auto;
+    width: 800px;
+    color:#ffffff;
+}
+
+.banner__desc{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.program{
+    padding: 90px 36px 30px 36px;
+    background-color: #ffffff;
+}
+
+.orange__line{
+    border-top: 2px solid #fd7e14;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.program__title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    padding: 12px 0 41px 0;
+}
+
+.container__program{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sport{
+    width: 356px;
+    height: 556px;
+    border: 1px solid #e6e6e6;
+}
+
+.sport__img{
+    width: 355px;
+    height: 349px;
+    background: center;
+}
+
+.sport__title{
+    padding: 24px 0 18px 26px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sport__desc{
+    padding: 0 0 30px 26px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.sport__about{
+    margin: 0 0 0 26px;
+    width: 133px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: #fd7e14;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sport__about_1{
+    width: 133px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: #fd7e14;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about{
+    display: flex;
+    background: #ffffff;
+    padding-top: 112px;
+}
+
+.about__desc{
+    padding-left: 98px;
+}
+
+.about__banner{
+    margin: 0 0 114px 74px;
+    background: url(img/img_1.jpg);
+    background-size: contain;
+    width: 540px;
+    height: 472px;
+}
+
+.about__title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 0 26px 0;
+}
+
+.about__quote{
+    color: #616161;
+    width: 415px;
+    padding-bottom: 26px;
+}
+
+.about__about{
+    display: block;
+    width: 133px;
+    height: 33px;
+    margin-top: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #fd7e14;
+    color: #fd7e14;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.img_person_1{
+    display: inline-block;
+    background: url(img/person_2.jpg);
+    height: 50px;
+    border-radius: 100%;
+    background-size: contain;
+    width: 50px;
+}
+
+.img_person_2{
+    padding-right: -15px;
+    display: inline-block;
+    background: url(img/person_3.jpg);
+    height: 50px;
+    border-radius: 100%;
+    background-size: contain;
+    width: 50px;
+}
+
+.img_person_3{
+    display: inline-block;
+    background: url(img/person_1.jpg);
+    height: 50px;
+    border-radius: 100%;
+    background-size: contain;
+    width: 50px;
+}
+
+.container__line{
+    border-top: 1px solid #DEE2E6;
+    padding-top: -30px;
+    width: 100%;
+}
+
+.orange__line1{
+    border-top: 2px solid #fd7e14;
+    width: 40px;
+}
+
+.trener{
+    background: url(img/bg_2.jpg);
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.trener__title{
+    padding: 26px 0 48px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+.trener__img{
+    background: url(img/person_3.jpg);
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.trener__img_1{
+    background: url(img/person_3.jpg);
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+.trener__name{
+    color: #ffffff;
+    padding: 18px 0 35px 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.treners__container{
+    background: url(img/bg_2.jpg);
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    padding: 64px 100px 0px 100px;
+}
+
+.treners__title{
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 9px;
+}
+
+.treners_{
+    background: url(img/bg_2.jpg);
+    background-size: contain;
+    padding-top: 50px;
+}
+
+.trener__desc{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 49px;
+}
+
+.trener__desc_1{
+    width: 389px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 49px;
+}
+
+.trener__ready{
+    display: block;
+    width: 295px;
+    height: 49px;
+    background: #fd7e14;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+.container__type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.type__sport{
+    background: #ffffff;
+    padding: 112px 26px 173px 26px;
+}
+
+.type__titleh{
+    padding: 18px 0 44px 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.type{
+    width: 350px;
+    height: 313px;
+    background: #ffffff;
+    border: 1px solid #DEE2E6;
+    margin-bottom: 44px;
+}
+
+.type__1{
+    padding: 8px 0 0 116px;
+}
+
+.type__2{
+    padding: 8px 0 0 130px;
+}
+
+.type__3{
+    padding: 8px 0 0 116px;
+}
+
+.type__4{
+    padding: 1px 0 0 118px;
+}
+
+.type__5{
+    padding: 17px 0 0 125px;   
+}
+
+.type__6{
+    padding: 12px 0 0 133px;
+}
+
+.type__title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.type__desc{
+    text-align: center;
+    font-weight: 400;
+    color: #616161;
+}
+
+.type__about{
+    margin-top: 40px;
+    display: block;
+    color: #fd7e14;
+    text-align: center;
+}
+
+footer{
+    height: 220px;
+    width: 100%;
+    background: #1e1e1c;
+    padding: 36px 28px 0 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__header{
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer__desc{
+    color:#616161;
+    font-size: 12px;
+    width: 282px;
+    padding: 16px 0 32px 0;
+}
+
+.footer__next{
+    width: 133px;
+    height: 33px;
+    color: #fd7e14;
+    font-size: 12px;
+    background: #1E1E1C;
+    border: 1px solid #ED7613;
+    border-radius: 5px;
+}
+
+.menu__header{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.menu__nav{
+    list-style: none;
+}
+
+.menu__nav li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #616161;
+}
+
+.menu__nav li{
+    padding-top: 5px;
+}
+
+.social__title{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.youtube{
+    padding: 8px 15px 0 14px;
+}
+
+.zayavka{
+    display: flex;
+    background: #f8f9fa;
+    padding: 62px 40px 75px 40px;
+}
+
+.anketa{
+    background: #ffffff;
+    margin-right: 30px;
+    padding: 51px 44px 41px 43px;
+    width: 730px;
+    height: 633px;
+}
+
+.anketa__title{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.anketa__input{
+    width: 643px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.anketa__input::placeholder{
+    color: #c8c8c8;
+    padding-top: 0px;
+}
+
+.anketa__input_1::placeholder{
+    color: #c8c8c8;
+    padding-top: 0px;
+}
+
+.anketa__input_1{
+    width: 643px;
+    height: 121px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.information{
+    background: #ffffff;
+    width: 362px;
+    height: 500px;
+    padding: 51px 49px 0px 23px;
+}
+
+.information__title{
+    font-size: 16px;
+    font-weight: 700;
+    color:#000000;
+    padding-bottom: 20px;
+}
+
+.information__header{
+    font-size: 15px;
+    font-weight: 700;
+    color:#616161;
+    padding-bottom: 12px;
+}
+
+.information__desc{
+    font-size: 14px;
+    font-weight: 600;
+    color:#bdbdbd;
+    padding-bottom: 37px;
+}
+
+.container__news{
+    background: #ffffff;
+    padding: 112px 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news__img{
+    width: 350px;
+    height: 306px;
+    padding-bottom: 17px;
+}
+
+.news__header{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fd7e14;
+    padding-bottom: 10px;
+}
+
+.news__date{
+    font-size: 16px;
+    font-weight: 500;
+    color: #aaaaaa;
+    padding-bottom: 23px;
+}
+
+.news__desc{
+    width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #858585;
+    padding-bottom: 40px;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth{
+    padding-right: 30px;
+}
+
+.profile{
+    padding: 20px 60px;
+    background: rgb(177, 177, 177);
+}
+.profile__trains{
+
+}
+
+.profile__train-item{
+    padding: 20px 10px;
+    max-width: 60%;
+    background: rgb(211, 204, 204);
+    position: relative;
+    margin: 10px 0;
+}
+
+.profile__train-delete{
+font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.profile__train-name{
+    font-weight: bold;
+}
+
+.profile__train-date{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
